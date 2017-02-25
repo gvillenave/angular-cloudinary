@@ -445,10 +445,12 @@ angularModule.provider('cloudinary', function () {
 	}
 
 	var TRANSFORMATION_PARAM_NAME_MAPPING = {
-		width: 'w',
-		height: 'h',
 		angle: 'a',
+		audio_codec: 'ac',
+		audio_frequency: 'af',
+		aspect_ratio: 'ar',
 		background: 'b',
+		bit_rate: 'br',
 		border: 'bo',
 		color: 'co',
 		color_space: 'cs',
@@ -457,20 +459,30 @@ angularModule.provider('cloudinary', function () {
 		delay: 'dl',
 		density: 'dn',
 		dpr: 'dpr',
+		duration: 'du',
 		effect: 'e',
+		end_offset: 'eo',
 		fetch_format: 'f',
 		flags: 'fl',
+		gravity: 'g',
+		height: 'h',
+		keyframe_interval: 'ki',
 		opacity: 'o',
 		overlay: 'l',
 		page: 'pg',
 		prefix: 'p',
 		quality: 'q',
 		radius: 'r',
+		start_offset: 'so',
+		streaming_profile: 'sp',
 		transformation: 't',
 		underlay: 'u',
-		gravity: 'g',
+		video_codec: 'vc',
+		video_sampling: 'vs',
+		width: 'w',
 		x: 'x',
-		y: 'y'
+		y: 'y',
+		zoom: 'z'
 	};
 
 	var TRANSFORMATION_PARAM_VALUE_MAPPING = {
